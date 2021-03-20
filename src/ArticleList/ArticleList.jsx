@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from 'prop-types'
 import ArticleListItem from "./ArticleListItem";
-
+import styles from './ArticleList.module.css'
 
 const ArticleList = props => {
   let displayContent;
@@ -9,7 +8,7 @@ const ArticleList = props => {
   console.log(props.articles);
   if (props.articles.length) {
     displayContent = (
-        <ul>
+        <ul className = {styles.container}>
           {props.articles.map((item) => (
               <ArticleListItem key={item.slug} article={item}/>
           ))}

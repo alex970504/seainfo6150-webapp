@@ -1,13 +1,14 @@
 import React from "react";
 import HTMLText from "../HTMLText/HTMLText";
 import { Link, useRouteMatch } from "react-router-dom";
+import styles from './DynamicArticle.module.css'
 
 const DynamicArticle = (props) => {
   let { url } = useRouteMatch();
   return (
-      <article>
+      <article className ={styles.box}>
         <li>
-          <Link to={`/articlelist`}>articlelist</Link>
+          <Link to={`/articlelist`}>Back</Link>
         </li>
         <header>
           <h1>{props.article.title}</h1>

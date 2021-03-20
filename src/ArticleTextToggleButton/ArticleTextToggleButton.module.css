@@ -1,0 +1,14 @@
+.button{
+    background: firebrick;
+
+    border-radius: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    position: absolute;left:20px;
+
+    color: white;
+}
