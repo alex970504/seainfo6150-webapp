@@ -2,6 +2,7 @@ import React from "react";
 import HTMLText from "../HTMLText/HTMLText";
 import { Link, useRouteMatch } from "react-router-dom";
 import styles from './DynamicArticle.module.css'
+import ArticleImage from "../ArticleImage/ArticleImage";
 
 const DynamicArticle = (props) => {
   let { url } = useRouteMatch();
@@ -10,6 +11,7 @@ const DynamicArticle = (props) => {
         <li>
           <Link to={`/articlelist`}>Back</Link>
         </li>
+          <ArticleImage url = {props.article.image._url} title = {props.article.title} />
         <header>
           <h1>{props.article.title}</h1>
           <address>by {props.article.author} (<a href={props.article.authorEmail}>{props.article.authorEmail}</a>)</address>
