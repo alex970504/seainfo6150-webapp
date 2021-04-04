@@ -1,9 +1,10 @@
 .box{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-flow:column;
     border:2px solid firebrick;
     border-radius: 10px;
-    padding-bottom: 20px;
-    padding-right :20px;
-    padding-left :10px;
     background-image: linear-gradient(to right, #CD5C5C, white, white,white);
 }
 
@@ -11,15 +12,13 @@
 .div{
     display: inline-block;
     vertical-align: middle;
-    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .title{
-    font-size: 150%;
+    font-size: 120%;
     color:firebrick;
-
 }
 
 .p{

@@ -2,13 +2,14 @@
     background: firebrick;
 
     border-radius: 5px;
-
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 25px;
     padding-left: 25px;
-
-    position: absolute;left:20px;
+    align-self: center;
+    width:90%;
 
     color: white;
 }
