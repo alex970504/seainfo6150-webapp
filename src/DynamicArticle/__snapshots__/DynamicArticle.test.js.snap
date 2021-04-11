@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleListItem tests renders correctly 1`] = `
+<div>
+  <article
+    class="box"
+  >
+    <li>
+      <a
+        href="/articlelist"
+      >
+        Back
+      </a>
+    </li>
+    <img
+      alt="title"
+      class="img"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/180419105150-ski-roof-hotel-8-super-169.jpg"
+    />
+    <header>
+      <h1>
+        title
+      </h1>
+      <address>
+        by 
+        Jeanine Cantrell
+         (
+        <a
+          href="jeanine.cantrell@nytimes.com"
+        >
+          jeanine.cantrell@nytimes.com
+        </a>
+        )
+      </address>
+      <time>
+        November 14th 2018, 4:20 am
+      </time>
+    </header>
+    <div>
+      <p>
+        paragraph 1
+      </p>
+      <p>
+        paragraph 2
+      </p>
+    </div>
+  </article>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleListItem tests renders correctly 1`] = `
+<div>
+  <div
+    class="box cell-width"
+  >
+    <img
+      alt="title"
+      class="img"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/180419105150-ski-roof-hotel-8-super-169.jpg"
+    />
+    <li>
+      <div
+        class="div"
+      >
+        <a
+          class="title"
+          href="/articlelist/slug-123"
+        >
+          title
+        </a>
+      </div>
+      <br />
+      <button
+        class="button"
+      >
+        Show more
+      </button>
+    </li>
+  </div>
+</div>
+`;

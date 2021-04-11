@@ -8,7 +8,7 @@ const ArticleList = props => {
   console.log(props.articles);
   if (props.articles.length) {
     displayContent = (
-        <ul className = {styles.container}>
+        <ul>
           {props.articles.map((item) => (
               <ArticleListItem key={item.slug} article={item}/>
           ))}

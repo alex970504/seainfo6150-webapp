@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import {Link, useRouteMatch} from "react-router-dom";
 import ArticleTextToggleButton from "../ArticleTextToggleButton/ArticleTextToggleButton";
 import styles from './ArticleListItem.module.css';
+import "./ArticleListItem.css"
 import ArticleImage from "../ArticleImage/ArticleImage"
 
 
@@ -9,7 +10,7 @@ const ArticleListItem = props => {
   const [hidden, setHidden] = useState(true);
   let {url} = useRouteMatch();
   return (
-      <div className ={styles.box}>
+      <div className={styles.box + " cell-width"}>
         <ArticleImage url = {props.article.image._url} title = {props.article.title} />
         <li key={props.article.slug}>
           <div className = {styles.div}>
